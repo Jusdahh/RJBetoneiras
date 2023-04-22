@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login and Registration Form</title>
+    <script src="https://kit.fontawesome.com/edd7fefbb5.js" crossorigin="anonymous"></script>
+    <script defer src=""></script>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <div class="formLogin">
+                <span class="title">Entre</span>
+
+                <form action="" name="loginForm">
+                    <div class="inputField">
+                        <input type="email" name="email" placeholder="Entre com o seu e-mail">
+                        <i class="fa-solid fa-at"></i>
+                    </div>
+                    <div class="inputField">
+                        <input type="password" name="password" class="password" placeholder="Entre com a sua senha">
+                        <i class="fa-solid fa-key"></i>
+                        <i class="fa-solid fa-eye-low-vision hideshowpw"></i>
+                    </div>
+                    <div class="checkboxText">
+                        <div class="checkboxContent">
+                            <input type="checkbox" name="loginCheck" id="loginCheck">
+                            <label for="loginCheck" class="Text">Lembrar login</label>
+                        </div>
+                        <a href="#" class="text">Esqueci a senha</a>
+                    </div>
+                    <div class="inputField Btn">
+                        <input type="submit" value="Log in">
+                    </div>
+                </form>
+                <div class="loginSignup">
+                    <span class="text">Novo por aqui?
+                        <a href="#" class="text signupLink">Cadastre-se</a>
+                    </span>
+                </div>
+
+                <!-- Formulário de Registro -->
+                <div class="form signup">
+                    <span class="title">Cadastre-se</span>
+                    <form name="signupForm">
+                        <div class="inputField">
+                            <input type="text" name="name" placeholder="Insira seu nome aqui">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="inputField">
+                            <input type="email" name="email" placeholder="Insira seu e-mail aqui">
+                            <i class="fa-solid fa-at"></i>
+                        </div>
+                        <div class="inputField">
+                            <input type="password" name="password" placeholder="Crie sua senha aqui">
+                            <i class="fa-solid fa-key"></i>
+                            <i class="fa-solid fa-eye-low-vision hideshowpw"></i>
+                        </div>
+                        <div class="inputField">
+                            <input type="password" name="passwordConfirm" placeholder="Confirme sua senha aqui">
+                            <i class="fa-solid fa-key"></i>
+                            <i class="fa-solid fa-eye-low-vision hideshowpw"></i>
+                        </div>
+                        <div class="checkboxText">
+                            <div class="checkboxContent">
+                                <input type="checkbox" name="termCon" id="termCon">
+                                <label for="termCon" class="Text">Li e concordo com os Termos de Uso e Serivço</label>
+                            </div>
+                        </div>
+                        <div class="inputField btn">
+                            <input type="submit" value="Cadastre-se">
+                        </div>
+                    </form>
+                    <div class="loginSignup">
+                        <span class="text">Já é um membro?
+                            <a href="#" class="text loginLink">Entre</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
