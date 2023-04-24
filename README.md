@@ -11,8 +11,8 @@ RJBetoneiras é um projeto desenvolvido para a disciplina optativa de "Desenvolv
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/TobyG74"><img src="https://avatars.githubusercontent.com/u/103790807?v=4" width="100px;" alt="Tobi Saputra"/><br /><sub><b>Rhuan Pablo</b></sub></a><br /></td>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jusdahh"><img src="https://avatars.githubusercontent.com/u/113133054?v=4" width="100px;" alt="Tobi Saputra"/><br /><sub><b>Ueld Judah</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/RhuanMalta"><img src="https://avatars.githubusercontent.com/u/103790807?v=4" width="100px;" alt="Rhuan Pablo"/><br /><sub><b>Rhuan Pablo</b></sub></a><br /></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Jusdahh"><img src="https://avatars.githubusercontent.com/u/113133054?v=4" width="100px;" alt="Ueld Judah"/><br /><sub><b>Ueld Judah</b></sub></a><br /></td>
     </tr>
   </tbody>
 </table>
