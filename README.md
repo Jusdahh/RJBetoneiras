@@ -1,17 +1,13 @@
-<img src="">
-
 # RJBetoneiras
 
 RJBetoneiras é um projeto desenvolvido para a disciplina optativa de "Desenvolvimento de Sistemas Web" do curso de Engenharia de Computação da Universidade Federal de Itajubá - Campus Itabira. O projeto se consiste em um site comercial que promove a venda de betoneiras, tendo como o principal intuito o desenvolvimento de algumas noções básicas de desenvolvimento WEB por parte dos envolvidos.
-<hr>
 
 ## Tecnologias Utilizadas:
 * HTML;
 * CSS;
 * JAVASCRIPT;
-<hr>
 
-## Pessoas Envolvidas
+## Pessoas Envolvidas:
 <table>
   <tbody>
     <tr>
