@@ -5,6 +5,13 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0.849) 50%,rgba(255, 255, 255, 0) 100%), url("/img/1682021001559.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+}
+
 /* Navbar CSS Desktop */
 
 .navbar{
@@ -100,32 +107,93 @@
     transition: all 0.3s ease;
 }
 
-.hero{
-    background: #fff7cb;
-    height: 100vh;
+.linha_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.linha_posters{
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    font-size: 1.2rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.linha_poster:hover{
+    transform: scale(1.08);
+}
+.linha_posters::-webkit-scrollbar{
+    display: none;
+}
+.linha_poster_large{
+    max-height: 250px;
 }
 
-.linhasnetflix{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    font-size: 1.2rem;
-    margin-top: 10px;
+#area1{
+    background-color: #131313;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin: 100px;
 }
-
-.heroitem{
-    text-align: center;
+.categorias{
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    position: relative;
     width: 100%;
     height: 100%;
-    margin: 0 auto;
-    padding: 0 50px;
-    margin-top: 10px;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 2px;
+}
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+.container:hover{
+    transform: scale(0.9);
+}
+.container:hover img{
+    opacity: 0.5;
+}
+.container p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Kumbh Sans', sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0%;
+    transition: all 0.3s ease;
+    background-color: #131313;
+    padding: 10px;
+    border-radius: 5px;
+}
+.container:hover p{
+    opacity: 100%;
+}
+.container p b{
+    display: block;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
 }
 
 /* Navbar CSS: Mobile */

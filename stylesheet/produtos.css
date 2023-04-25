@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.imagem_linha_poster{
+    width: 100%;
+    object-fit: contain;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+.linha_posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.imagem_linha_poster:hover{
+    transform: scale(1.08);
+}
+.imagem_linha_poster::-webkit-scrollbar{
+    display: none;
+}
+.imagem_linha_poster_large{
+    max-height: 250px;
+}
