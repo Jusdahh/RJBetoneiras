@@ -113,6 +113,7 @@ body{
     max-height: 100px;
     margin-right: 10px;
     transition: transform 450ms;
+    cursor: pointer;
 }
 .linha_posters{
     display: flex;
@@ -138,6 +139,20 @@ body{
     margin-bottom: 20px;
     border-radius: 10px;
     margin: 100px;
+}
+#area1 h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+#area1 p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 30px;
 }
 .categorias{
     display: flex;
@@ -195,6 +210,7 @@ body{
     letter-spacing: 1px;
     text-transform: capitalize;
 }
+
 
 /* Navbar CSS: Mobile */
 
