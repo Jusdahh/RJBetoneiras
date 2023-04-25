@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../stylesheet/style.css">
+  <link rel="stylesheet" href="/stylesheet/produtos.css">
   <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/edd7fefbb5.js" crossorigin="anonymous"></script>
   <title>Produtos</title>
@@ -13,42 +13,68 @@
 
 <body>
 
-<nav class="navbar">
+  <nav class="navbar">
     <div class="navbarContainer">
-        <a href="/" id="navbarLogo"> <i class="fa-solid fa-helmet-safety"></i> RJBetoneiras</a>
-        <div class="navbarToggle" id="mobileMenu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul class="navbarMenu">
-            <li class="navbarItem">
-                <a href="/index.html" class="navbarLinks">Início</a>
-            </li>
-            <li class="navbarItem">
-                <a href="./pages/produtos.html" class="navbarLinks">Produtos</a>
-            </li>
-            <li class="navbarItem">
-                <a href="./pages/teste.html" class="navbarLinks">Quem somos</a>
-            </li>
-            <li class="navbarBtn">
-                <a href="./pages/login.html" class="button">Login</a>
-            </li>
-        </ul>
+      <a href="/" id="navbarLogo"> <i class="fa-solid fa-helmet-safety"></i> RJBetoneiras</a>
+      <div class="navbarToggle" id="mobileMenu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbarMenu">
+        <li class="navbarItem">
+          <a href="/index.html" class="navbarLinks">Início</a>
+        </li>
+        <li class="navbarItem">
+          <a href="./pages/produtos.html" class="navbarLinks">Produtos</a>
+        </li>
+        <li class="navbarItem">
+          <a href="./pages/teste.html" class="navbarLinks">Quem somos</a>
+        </li>
+        <li class="navbarBtn">
+          <a href="./pages/login.html" class="button">Login</a>
+        </li>
+      </ul>
     </div>
-</nav>
+  </nav>
 
-<div id="area-produtos">
-  <div class="container">
-    <img src="" style="width:100%">
-    <p>Betoneira do Mito<br><b>R$24.99</b></p>
-  </div>
+  <form action="" method="get">
+    <label for="search">Pesquisar:</label>
+    <input type="text" id="search" name="q" placeholder="Digite sua pesquisa...">
+    <button type="submit">Pesquisar</button>
+  </form>
 
-  <div class="container">
-    <img src="" style="width:100%">
-    <p>Betoneira Envelopamento Fluminense<br><b>R$19.99</b></p>
-  </div>
-</div>
+
+  <div id="area_produtos">
+
+    <div class="container">
+      
+      <img src="/img/aço.png">
+
+        <h3 class="product-description">
+          <a href="" class="tag-a show-bg-preloader tagManagerProductClick" title="Betoneira Skin piso de oficina">
+            Betoneira Skin piso de oficina
+          </a>
+        </h3>
+
+        <div class="container__price">
+          <p class="price">
+            <span class="currency">R$</span> 4.199,90
+          </p>
+
+          <div class="parcel">
+            <i class="fa fa-credit-card" aria-hidden="true"></i>
+            12x R$ 350,00 no cartão
+          </div>
+        </div>
+      
+
+      <div class="container">
+        <img src="" style="width:100%">
+        <p>Betoneira Envelopamento Fluminense<br><b>R$19.99</b></p>
+      </div>
+
+    </div>
 
 </body>
 
