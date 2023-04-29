@@ -39,7 +39,7 @@ body{
 #navbarLogo{
     font-family: 'Titan One', cursive;
     background-color: #F1C40F;
-    background-image: linear-gradient(to top, #c2a40c 0%, #cc8800 100%);
+    background-image: linear-gradient(to top, #f1ca0f 0%, #ffa900 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
