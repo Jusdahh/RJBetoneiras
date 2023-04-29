@@ -130,30 +130,46 @@ body{
 .linha_poster_large{
     max-height: 250px;
 }
-
+@media screen and (max-width: 768px) {
+    .linha_posters {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .linha_poster {
+      max-width: calc(50% - 5px);
+      margin-right: 5px;
+      margin-bottom: 10px;
+    }
+  }
 #area1{
     background-color: #131313;
     color: white;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 20px auto;
     border-radius: 10px;
-    margin: 100px;
+    margin: 100px auto;
+    max-width: 100%;
 }
 #area1 h2{
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 30px auto;
     font-weight: bold;
     letter-spacing: 2px;
     text-transform: uppercase;
 
 }
-#area1 p{
-    font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 30px;
+#area1 p {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 30px;
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
+
+
 .categorias{
     display: flex;
     justify-content: space-around;
