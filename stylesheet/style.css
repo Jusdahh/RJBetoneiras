@@ -2,14 +2,17 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%,rgba(255, 255, 255, 0.849) 50%,rgba(255, 255, 255, 0) 100%), url("/img/1682021001559.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position: top;
+    background: white;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /* Navbar CSS Desktop */
@@ -38,7 +41,7 @@ body{
 }
 
 #navbarLogo{
-    font-family: 'Titan One', cursive;
+    font-family: 'Saira Stencil One', cursive;
     background-color: #F1C40F;
     background-image: linear-gradient(to top, #f1ca0f 0%, #ffa900 100%);
     background-size: 100%;
@@ -107,6 +110,46 @@ body{
     transition: all 0.3s ease;
 }
 
+/* Landing Page CSS */
+
+.home{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 10%;
+}
+
+.homeText{
+    max-width: 37rem;
+}
+
+.homeText .textH4{
+    font-size: 1.5rem;
+    color:#F1C40F
+}
+
+.homeText .textH1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    line-height: 2rem;
+}
+
+.homeContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.homeImg img{
+    width: 30rem;
+}
+
+/* Poster CSS */
+
 .linha_poster{
     width: 100%;
     object-fit: contain;
@@ -130,6 +173,27 @@ body{
 .linha_poster_large{
     max-height: 250px;
 }
+
+/* Landing Page CSS: Mobile */
+
+@media screen and (max-width: 960px) {
+    .home{
+        display: flex;
+        flex: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .home{
+        margin-top: 200px;
+    }
+}
+
+/* Poster CSS: Mobile */
+
 @media screen and (max-width: 768px) {
     .linha_posters {
       flex-wrap: wrap;
