@@ -7,6 +7,7 @@
     <title>SiteLojaBetoneiras</title>
     <link rel="stylesheet" href="./stylesheet/style.css">
     <script defer src="./app/script.js"></script>
+    <script defer src="/app/redirecionar.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/edd7fefbb5.js" crossorigin="anonymous"></script>
 </head>
@@ -23,13 +24,13 @@
             </div>
             <ul class="navbarMenu">
                 <li class="navbarItem">
-                    <a href="/" class="navbarLinks">Início</a>
+                    <a href="index.html" class="navbarLinks">Início</a>
                 </li>
                 <li class="navbarItem">
-                    <a href="/" class="navbarLinks">Produtos</a>
+                    <a href="./pages/produtos.html" class="navbarLinks">Produtos</a>
                 </li>
                 <li class="navbarItem">
-                    <a href="/" class="navbarLinks">Quem somos</a>
+                    <a href="./pages/sobre.html" class="navbarLinks">Quem somos</a>
                 </li>
                 <li class="navbarBtn">
                     <a href="./pages/login.html" class="button">Login</a>
@@ -40,15 +41,56 @@
 
     <!-- Hero content -->
 
-    <div class="main">
-        <div class="mainContainer">
-            <div class="mainContent">
-                <h1>RJBetoneiras</h1>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam ratione itaque facere deserunt distinctio neque dolorum earum, et quo repellat odit mollitia, ut placeat ad sint dolorem molestiae voluptates porro.
-                Veniam nostrum quod, laboriosam ipsum facere magnam ut illo aliquam reiciendis recusandae doloribus veritatis temporibus neque optio error sit qui exercitationem libero iusto necessitatibus adipisci possimus explicabo accusantium. Recusandae, repellendus?
-                <h2>Produtos</h2>
+    <div class="hero">
+        <!-- Área de categorias -->
+        <div id="area1">
+          <h2>Principais Categorais</h2>
+          <p>Algumas das nossas principais categorias de produtos</p>
+          <div class="categorias">
+
+            <div class="container" onclick="redirect()">
+              <img class="imagem"src="/img/aço.png">
+              <p>Betoneiras Envelopadas<br><b>Mais popular</b></p>
             </div>
+          
+            <div class="container" onclick="redirect()">
+              <img class="imagem"src="/img/rosa.png">
+              <p>Betoneiras pintadas</p>
+            </div>
+
+            <div class="container" onclick="redirect()">
+              <img class="imagem"src="/img/Sem título.jpeg">
+              <p>Betoneiras comuns</p>
+            </div>
+
+            <div class="container" onclick="redirect()">
+              <img class="imagem"src="/img/unifei.png">
+              <p>Betoneiras com adesivos</p>
+            </div>
+
+          </div>
+        </div>
+      
+        <!-- Área de produtos -->
+        <div class="linha">
+          <h2>Principais Produtos</h2>
+          <div class="linha_posters">
+            <img src="/img/Sem título.jpeg" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/fluminense.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/mito.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/rosa.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/trabalhadores.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/incandescente.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/militar.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/unifei.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/aço.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/betoneira2_12-01-46.png" alt="" class="linha_poster linha_poster_large">
+            <img src="/img/betoneira-600l-com-motovibrador-trifasica-csm16570441380.webp" alt="" class="linha_poster linha_poster_large">
+            
+
+          </div>
         </div>
     </div>
+      
 </body>
 </html>
