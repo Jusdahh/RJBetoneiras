@@ -98,4 +98,7 @@ body {
     .container__description {
         width: 100%;
     }
+    .container{
+        flex-direction: column;
+    }
 }
