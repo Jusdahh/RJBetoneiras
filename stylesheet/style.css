@@ -388,4 +388,17 @@ body{
     #mobileMenu.is-active .bar:nth-child(3){
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .categorias{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .container p{
+        opacity: 75%;
+    }
+    .container img{
+        border-radius: 2rem;
+    }
 }
